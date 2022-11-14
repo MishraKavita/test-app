@@ -1,7 +1,9 @@
 
 function Feature(){
     return(
-        <></>
+        <>
+            <h1>Second commit on git</h1>
+        </>
     )
 }
 export default Feature;

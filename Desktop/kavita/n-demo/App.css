@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  background-color: #e9e9e9 !important;
+}
+
+.black-color {
+  color: #141414;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Noto Serif', serif;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+}
+
+.App .container {
+  background-color: #ffffff;
+  border-top: 5px solid #75c987;
+  border-radius: 5px;
+  overflow: hidden;
+  max-width: 1000px;
+}
+
+.App .container h2 {
+  text-align: center;
+  font-size: 30px;
+  margin: 10px 0;
+}
+
+.title-haeding {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.create-task {
+  padding: 30px 25px;
+}
+
+label {
+  display: block !important;
+  font-size: 16px;
+  color: #111111;
+  font-weight: 600;
+  font-family: 'Lato', sans-serif;
+  margin-bottom: 8px;
+}
+
+input {
+  border: 1px solid #75c987;
+  width: 100%;
+  height: 45px;
+  border-radius: 5px;
+  padding-left: 25px;
+  margin-bottom: 17px !important;
+  display: inline-block;
+}
+
+input:focus-visible {
+  outline: none;
+}
+
+textarea {
+  border: 1px solid #75c987;
+  width: 100%;
+  border-radius: 5px;
+  padding-left: 25px;
+  padding-top: 10px;
+  margin-bottom: 17px !important;
+  display: inline-block;
+}
+
+textarea:focus-visible {
+  outline: none;
+}
+
+button {
+  background-color: #75c987;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #75c987;
+  color: #ffffff;
+  height: 45px;
+  min-width: 150px;
+  border-radius: 50px !important;
+}
+button:focus-visible{
+  outline: none;
+}
+.del-icon svg{
+  width: 13px;
+  height: 13px;
+  fill: #ffffff;
+ 
+}
+.del-icon{
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  background-color: #ff0000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+}
+.addes-task li{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:15px 30px;
+  background-color: rgba(117,201,135,0.2);
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.btn-list{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  column-gap: 8px;
+}
+.btn-list .del-icon:first-child{
+  background-color: #797979;
+}
+.addes-task ul{
+  margin: 0;
+  padding: 0;
+}
+.addes-task {
+  margin: 0 30px;
+}
+dl, dt{
+  margin: 0 !important;
+}
