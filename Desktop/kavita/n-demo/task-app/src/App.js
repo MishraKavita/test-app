@@ -7,7 +7,8 @@ import 'bootstrap/dist/js/bootstrap.min.js';
 
 
 import './App.css';
-import { Form } from './component/form/form';
+import Form from './component/form/form';
+
 
 function App() {
   // const [Title , setTitle] = usestate('')
@@ -21,8 +22,7 @@ function App() {
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
-              <Form ></Form>
-              
+              <Form></Form>
             </div>
           </div>
         </div>
