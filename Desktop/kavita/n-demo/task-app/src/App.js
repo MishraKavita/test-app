@@ -8,6 +8,7 @@ import 'bootstrap/dist/js/bootstrap.min.js';
 
 import './App.css';
 import Form from './component/form/form';
+import Feature from './component/feature/feature';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
           <div className="row">
             <div className="col-lg-12">
               <Form></Form>
+              <Feature />
             </div>
           </div>
         </div>
